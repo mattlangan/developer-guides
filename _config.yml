@@ -1,0 +1,9 @@
+theme: jekyll-theme-zilker
+title: Web Development Guides
+permalink: pretty
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"

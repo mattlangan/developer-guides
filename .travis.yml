@@ -1,0 +1,19 @@
+language: ruby
+rvm:
+  - 2.4.0
+script: bundle exec jekyll build
+branches:
+  only:
+    - jekyll
+sudo: false
+after_success:
+  - cd _site
+  - git init
+  - git config user.name "Matt Langan"
+  - git config user.email "matt.langan@austintexas.gov"
+  - git remote add upstream "https://$GH_TOKEN@github.com/cityofaustin/developer-guides.git"
+  - git fetch upstream
+  - git reset upstream/gh-pages
+  - git add -A .
+  - git commit -m "[Build] ${TRAVIS_COMMIT}"
+  - git push -q upstream HEAD:gh-pages

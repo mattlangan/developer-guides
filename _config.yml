@@ -3,7 +3,7 @@ title: Web Development Guides
 permalink: pretty
 repository_url: https://github.com/cityofaustin/developer-guides
 url: https://s3.amazonaws.com
-baseurl: /coa-developer-guide
+baseurl: /coa-developer-guides
 defaults:
   -
     scope:

@@ -1,4 +1,4 @@
-site: http://coa-developer-guides.s3.amazonaws.com
+site: _site/
 s3_id: <%= ENV['AWS_S3_KEY'] %>
 s3_secret: <%= ENV['AWS_S3_SECRET'] %>
 s3_bucket: http://coa-developer-guides.s3.amazonaws.com

@@ -2,7 +2,7 @@ theme: jekyll-theme-zilker
 title: Web Development Guides
 permalink: pretty
 repository_url: https://github.com/cityofaustin/developer-guides
-baseurl: https://s3-us-east-1.amazonaws.com/coa-developer-guides
+baseurl: https://s3.amazonaws.com/coa-developer-guides
 defaults:
   -
     scope:
